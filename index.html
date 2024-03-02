@@ -10,9 +10,26 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
 
-    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="Style.scss">
 
+    <style>
+      .journey-section {
+        margin-top: 100px;
+        padding-bottom: 200px;
+        padding-top: 200px;
+        background-color: #FAFAFA;
+      }
+    
+      .scrollable-right {
+        max-height: 600px; /* Set a fixed height for scrolling */
+        overflow-y: auto; /* Enable vertical scrolling */
+      }
+    
+      /* Add additional styling as needed */
+    </style>
+</head>
 
+   
 
 </head>
 <body >
@@ -59,7 +76,7 @@
     <div class="d-flex justify-content-center align-items-center row">
       <div class="col-md-6">
         <h5 style="color: #FF5634; font-weight: 600;">ABOUT DELIVER X</h5>
-        <h1 style="font-weight: 900; font-size: 56px;">We are here to help amazing restaurants get great customers</h1>
+        <h1 style="font-weight: 700; font-size: 56px;">We are here to help amazing restaurants get great customers</h1>
         <p style="font-size: 18px; color: #656565">At morbi adipiscing sit sed consectetur senectus Dignissim sed amet tincidunt vitae ultricies ultrices amet fermentum amet neque et id sed lacinia massa pretium aliquam libero et.</p>
       </div>
       <div class="container position-relative col-md-6">
@@ -67,8 +84,8 @@
         <img class="img-fluid rounded position-absolute start-0 translate-middle-y" src="./Assets/Image/Burger.png" alt="" style="max-height: 276px; width: auto; top: 60%; transform: translateY(-50%);">
         <img class="img-fluid rounded position-absolute start-50 translate-middle-y" src="./Assets/Image/DeliveryTime.svg" alt="" style="max-height: 119px; width: auto; top: 80%; transform: translateY(-50%);">
       </div>
-      
-      
+    
+
       </div>
       
       <div style="padding-top: 100px; padding-bottom: 100px;" class="d-flex justify-content-between row ">
@@ -93,15 +110,17 @@
 
 
 
+
+
 <section style="margin-top: 200px;" class="container ">
   <div class="d-flex justify-content-between align-items-center row">
     <div class="col-md-6">
       <img class="img-fluid" style="height: 718px; border-radius: 25px;" src="./Assets/Image/DeliveryBoy/DeliveryBoy-2.jpeg" alt="">
     </div>
-    <div  class="col-md-6">
-      <h3>ABOUT US</h3>
-        <h2>Our company started back in 2016</h2>
-        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur.
+    <div  class="col-md-6 pt-4">
+      <h5 style="color: #FF5634; font-weight: 600;">ABOUT US</h5>
+        <h1 style="font-weight: 700; font-size: 56px;">Our company started back in 2016</h1>
+        <p style="font-size: 18px; color: #656565; width: 480px;" >Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur.
 
         </p>
     </div>
@@ -109,49 +128,50 @@
 </section>
 
 <section style="padding-top: 200px;" class="container ">
-  <div class="d-flex justify-content-center align-items-center ">
-    <div>
-      <h3>OUR MISSION</h3>
-        <h2>Our mission is to disrupt the food industry        </h2>
-        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit. </p>
+  <div class="d-flex justify-content-center align-items-center row">
+    <div class="col-md-6">
+      <h5 style="color: #FF5634; font-weight: 600;">OUR MISSION</h5>
+        <h1 style="font-weight: 700; font-size: 56px;">Our mission is to disrupt the food industry</h1>
+        <p style="font-size: 18px; color: #656565; width: 480px;" >Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit. </p>
     </div>
-    <div>
-      <img style="height: 718px; border-radius: 25px;" src="./Assets/Image/DeliveryBoy/MobilePhone.jpeg" alt="">
+    <div class="col-md-6">
+      <img class="img-fluid" style="height: 718px; border-radius: 25px;" src="./Assets/Image/DeliveryBoy/MobilePhone.jpeg" alt="">
     </div>
    
   </div>
 </section>
 
-
-<section style="padding-top: 200px;" class="container ">
-  <div class="d-flex justify-content-center align-items-center ">
-    <div>
-      <h3>OUR JOURNEY</h3>
-        <h2>It has been a long but incredible journey </h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit tortor eu egestas morbi sem vulputate etiam facilisis pellentesque ut quis.</p>
-        <button>Download App</button>
+<!-- 
+<section style="margin-top: 100px; padding-bottom: 200px; padding-top: 200px; background-color: #FAFAFA;" >
+ <div class="container">
+  <div class="d-flex justify-content-center align-items-center row ">
+    <div class="col-md-6">
+      <h5 style="color: #FF5634; font-weight: 600;">OUR JOURNEY</h5>
+        <h2 style="font-weight: 700; font-size: 56px;">It has been a long but incredible journey </h2>
+        <p style="font-size: 18px; color: #656565; width: 480px;">Lorem ipsum dolor sit amet consectetur adipiscing elit tortor eu egestas morbi sem vulputate etiam facilisis pellentesque ut quis.</p>
+        <button style="font-weight: 700; font-size: 16px; background-color: #FF5634; color: #FFFFFF; padding: 26px 38px;" class="rounded-4 border-0">Download App</button>
     </div>
 
-    <div>
-     <div>
+    <div class="col-md-6">
+     <div class="rounded-4" style="padding: 60px 53px; background-color: #FFFFFF; width: 588px; height: 378px; margin-bottom: 30px;" >
 <h3>2016</h3>
         <h2>Deliver X was founded</h2>
         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam. </p>
         
      </div>
-     <div>
+     <div class="rounded-4" style="padding: 60px 53px; background-color: #FFFFFF; width: 588px; height: 378px; margin-bottom: 30px;" >
 <h3>2018</h3>
         <h2>Raised Series A at $50M valuation </h2>
         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam. </p>
         
      </div>
-     <div>
+     <div class="rounded-4" style="padding: 60px 53px; background-color: #FFFFFF; width: 588px; height: 378px; margin-bottom: 30px;" >
 <h3>2019</h3>
         <h2>Raised Series B at $600M valuation</h2>
         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam. </p>
         
      </div>
-     <div>
+     <div class="rounded-4" style="padding: 60px 53px; background-color: #FFFFFF; width: 588px; height: 378px; margin-bottom: 30px;" >
 <h3>2022</h3>
         <h2>Raised Series C at $3B valuation</h2>
         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam. </p>
@@ -160,7 +180,46 @@
     </div>
    
   </div>
+ </div>
+</section> -->
+
+<section class="journey-section">
+  <div class="container">
+    <div class="d-flex justify-content-center align-items-center row ">
+      <div class="col-md-6 sticky-left">
+        <!-- Content for the sticky left div -->
+        <h5 style="color: #FF5634; font-weight: 600;">OUR JOURNEY</h5>
+        <h2 style="font-weight: 700; font-size: 56px;">It has been a long but incredible journey </h2>
+        <p style="font-size: 18px; color: #656565; width: 480px;">Lorem ipsum dolor sit amet consectetur adipiscing elit tortor eu egestas morbi sem vulputate etiam facilisis pellentesque ut quis.</p>
+        <button style="font-weight: 700; font-size: 16px; background-color: #FF5634; color: #FFFFFF; padding: 26px 38px;" class="rounded-4 border-0">Download App</button>
+      </div>
+      <div class="col-md-6 scrollable-right">
+        <!-- Right div content with 4 boxes -->
+        <div class="rounded-4" style="padding: 60px 53px; background-color: #FFFFFF; width: 588px; height: 378px; margin-bottom: 30px;" >
+          <h3>2016</h3>
+          <h2>Deliver X was founded</h2>
+          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam. </p>
+        </div>
+        <div class="rounded-4" style="padding: 60px 53px; background-color: #FFFFFF; width: 588px; height: 378px; margin-bottom: 30px;" >
+          <h3>2018</h3>
+          <h2>Raised Series A at $50M valuation </h2>
+          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam. </p>
+        </div>
+        <div class="rounded-4" style="padding: 60px 53px; background-color: #FFFFFF; width: 588px; height: 378px; margin-bottom: 30px;" >
+          <h3>2019</h3>
+          <h2>Raised Series B at $600M valuation</h2>
+          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam. </p>
+        </div>
+        <div class="rounded-4" style="padding: 60px 53px; background-color: #FFFFFF; width: 588px; height: 378px; margin-bottom: 30px;" >
+          <h3>2022</h3>
+          <h2>Raised Series C at $3B valuation</h2>
+          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam. </p>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
+
 
 
 <section style="padding-top: 200px;">
@@ -170,18 +229,18 @@
         <h2>We don’t walk alone, Deliver X works thanks to our partners</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipiscing elit tortor eu egestas morbi sem vulputate etiam facilisis pellentesque ut quis.</p>
     </div>
-    <div class="d-flex justify-content-center align-items-center">
-      <div>
+    <div class="d-flex justify-content-center align-items-center row">
+      <div class="col-md-4">
         <img src="./Assets/Image/Partners/customer.svg" alt="">
         <h3>Customers</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipiscing eli mattis sit phasellus mollis sit aliquam sit nullam.</p>
       </div>
-      <div>
+      <div class="col-md-4">
         <img src="./Assets/Image/Partners/Restaurants.svg" alt="">
         <h3>Restaurants</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipiscing eli mattis sit phasellus mollis sit aliquam sit nullam.</p>
       </div>
-      <div>
+      <div class="col-md-4">
         <img src="./Assets/Image/Partners/Riders.svg" alt="">
         <h3>Riders</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipiscing eli mattis sit phasellus mollis sit aliquam sit nullam.</p>
@@ -193,7 +252,7 @@
 
 
 <section>
-  <div class="container ">
+  <div style="padding-top: 100px;" class="container ">
     <div class="text-center">
       <h3>PRESS & NEWS</h3>
       <p>See what the press says about Deliver X</p>
@@ -224,16 +283,20 @@
 </section>
 
 
-<section>
-  <div class="container d-flex ">
+<section style="padding-top: 100px; padding-bottom: 100px; ">
+  <hr>
+  <div style="padding-top: 100px;" class="container d-flex align-items-center justify-content-between ">
     <div>
       <img src="./Assets/Image/Deliver X Logo/Logo.svg" alt="">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing <br> elit sed do eiusmod tempor incididunt ut.</p>
     </div>
     <div>
-      <button>Download for ios</button>
-      <button>Download for Android</button>
+      <button style="padding: 20px 15px ; background-color: #FF5634; border: 0; width: 209px;" class="button rounded-3 text-white">Download for ios</button>
+      <button style="padding: 20px 15px ; background-color: #FF5634; border: 0; width: 209px;" class="button rounded-3 text-white">Download for Android</button>
+
+    
     </div>
+   <hr>
   </div>
 </section>
 
